@@ -1,0 +1,3 @@
+deployment/*
+.svn/*
+.mendix-cache/*
