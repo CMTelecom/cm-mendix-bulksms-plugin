@@ -54,6 +54,8 @@ Use SMS for example to send:
 In case you don’t have a CM account yet, get one at https://register.cmtelecom.com and get 10 test credits for free to send SMS. Get the CM Product token at https://gateway.cmtelecom.com and store this key in the app constant ProductToken. You’re ready to go.
 Use the microflow `SUB_SendSMS` to send your first SMS
 
+You can configure your webhooks for receiving status reports of the sent SMS and Inbound SMS in the platform as well. Choose for the GET method.
+
 #### Demo
 The CM Demo application allows you to test the SMS module and Number Verifier module of CM. The demo has both modules fully integrated in a fully functional app so you can actually test every functionality to see how it works.
 

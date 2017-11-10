@@ -51,6 +51,18 @@ public class Microflows
 			throw new MendixRuntimeException(e);
 		}
 	}
+	public static void test_PUB_InboundSMS_POST(IContext context)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			Core.execute(context, "TestModule.Test_PUB_InboundSMS_POST", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
 	public static void test_PublishedStatusReport(IContext context)
 	{
 		try

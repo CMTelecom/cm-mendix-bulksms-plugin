@@ -41,20 +41,6 @@ public class Microflows
 			throw new MendixRuntimeException(e);
 		}
 	}
-	public static bulksms.proxies.MessageResponse messageResponse_MessageResponse(IContext context, bulksms.proxies.MessageResponse _messageResponse)
-	{
-		try
-		{
-			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
-			params.put("MessageResponse", _messageResponse == null ? null : _messageResponse.getMendixObject());
-			IMendixObject result = (IMendixObject)Core.execute(context, "BulkSMS.MessageResponse_MessageResponse", params);
-			return result == null ? null : bulksms.proxies.MessageResponse.initialize(context, result);
-		}
-		catch (CoreException e)
-		{
-			throw new MendixRuntimeException(e);
-		}
-	}
 	public static void pUB_InboundSMS(IContext context, bulksms.proxies.InboundSMS _inboundSMS)
 	{
 		try

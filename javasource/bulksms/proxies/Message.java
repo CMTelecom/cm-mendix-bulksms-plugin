@@ -26,6 +26,7 @@ public class Message
 		MaximumNumberOfMessageParts("MaximumNumberOfMessageParts"),
 		EncodingType("EncodingType"),
 		Body("Body"),
+		CustomGrouping("CustomGrouping"),
 		Message_Message("BulkSMS.Message_Message"),
 		Message_Request("BulkSMS.Message_Request");
 
@@ -328,6 +329,42 @@ public class Message
 	public final void setBody(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String body)
 	{
 		getMendixObject().setValue(context, MemberNames.Body.toString(), body);
+	}
+
+	/**
+	 * @return value of CustomGrouping
+	 */
+	public final java.lang.String getCustomGrouping()
+	{
+		return getCustomGrouping(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of CustomGrouping
+	 */
+	public final java.lang.String getCustomGrouping(com.mendix.systemwideinterfaces.core.IContext context)
+	{
+		return (java.lang.String) getMendixObject().getValue(context, MemberNames.CustomGrouping.toString());
+	}
+
+	/**
+	 * Set value of CustomGrouping
+	 * @param customgrouping
+	 */
+	public final void setCustomGrouping(java.lang.String customgrouping)
+	{
+		setCustomGrouping(getContext(), customgrouping);
+	}
+
+	/**
+	 * Set value of CustomGrouping
+	 * @param context
+	 * @param customgrouping
+	 */
+	public final void setCustomGrouping(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String customgrouping)
+	{
+		getMendixObject().setValue(context, MemberNames.CustomGrouping.toString(), customgrouping);
 	}
 
 	/**
