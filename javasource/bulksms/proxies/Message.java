@@ -26,7 +26,7 @@ public class Message
 		MaximumNumberOfMessageParts("MaximumNumberOfMessageParts"),
 		EncodingType("EncodingType"),
 		Body("Body"),
-		CustomGrouping("CustomGrouping"),
+		CustomGrouping3("CustomGrouping3"),
 		Message_Message("BulkSMS.Message_Message"),
 		Message_Request("BulkSMS.Message_Request");
 
@@ -332,39 +332,39 @@ public class Message
 	}
 
 	/**
-	 * @return value of CustomGrouping
+	 * @return value of CustomGrouping3
 	 */
-	public final java.lang.String getCustomGrouping()
+	public final java.lang.String getCustomGrouping3()
 	{
-		return getCustomGrouping(getContext());
+		return getCustomGrouping3(getContext());
 	}
 
 	/**
 	 * @param context
-	 * @return value of CustomGrouping
+	 * @return value of CustomGrouping3
 	 */
-	public final java.lang.String getCustomGrouping(com.mendix.systemwideinterfaces.core.IContext context)
+	public final java.lang.String getCustomGrouping3(com.mendix.systemwideinterfaces.core.IContext context)
 	{
-		return (java.lang.String) getMendixObject().getValue(context, MemberNames.CustomGrouping.toString());
+		return (java.lang.String) getMendixObject().getValue(context, MemberNames.CustomGrouping3.toString());
 	}
 
 	/**
-	 * Set value of CustomGrouping
-	 * @param customgrouping
+	 * Set value of CustomGrouping3
+	 * @param customgrouping3
 	 */
-	public final void setCustomGrouping(java.lang.String customgrouping)
+	public final void setCustomGrouping3(java.lang.String customgrouping3)
 	{
-		setCustomGrouping(getContext(), customgrouping);
+		setCustomGrouping3(getContext(), customgrouping3);
 	}
 
 	/**
-	 * Set value of CustomGrouping
+	 * Set value of CustomGrouping3
 	 * @param context
-	 * @param customgrouping
+	 * @param customgrouping3
 	 */
-	public final void setCustomGrouping(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String customgrouping)
+	public final void setCustomGrouping3(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String customgrouping3)
 	{
-		getMendixObject().setValue(context, MemberNames.CustomGrouping.toString(), customgrouping);
+		getMendixObject().setValue(context, MemberNames.CustomGrouping3.toString(), customgrouping3);
 	}
 
 	/**
